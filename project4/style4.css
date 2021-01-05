@@ -72,7 +72,7 @@
     font-size: 5vw;
     color: white;
     font-weight: bolder;
-    margin: 5vh 33% 0px 33%;
+    margin: 5vh 40% 0px 25%;
     margin-right: 45%;
     margin-bottom: 3vh;
 }
@@ -80,10 +80,11 @@
     color: white;
     background: #1B7092;
     text-align: center;
-    width: 20vw;
+    width: 19vw;
     margin: 0px 10px 0px 0px;
     height:6vh;
     font-size: 4vh;
+    font-weight: bold;
 }
 .gap{
     width: 5vw;
@@ -98,6 +99,13 @@
     font-size: 3vh;
 }
 .time3{
-    height: 7vh;
+    border-top: 1px solid #1B7092;
+    height: 8vh;
     background: white;
+}
+.dis{
+    color:transparent;
+}
+.bold{
+    font-weight: bold;
 }
