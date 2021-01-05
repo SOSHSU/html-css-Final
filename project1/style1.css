@@ -1,0 +1,190 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.grid
+{
+    display: grid;
+    grid-template-rows: 15vh 85vh;
+    grid-template-columns: 15% 85%;
+    grid-template-areas:
+    "item1 item2"
+    "item1 item3"
+    ;
+}
+.item1
+{
+    background-color: #091868;
+    grid-area: item1;   
+}
+.item2
+{
+    background-color: #FFC83B;
+    grid-area: item2;
+    display: flex; 
+    flex-wrap: nowrap; 
+}
+.item3
+{
+    background-color: #054CBF; 
+    grid-area: item3; 
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+}
+.img1
+{
+    margin: 50px 10px 0px 10px;
+    width: 180px;
+}
+.words{
+    color: white;
+    text-align: center;
+    margin: 45px 0px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgba(245, 245, 245, 0.384);
+}
+.word2{
+    font-size: 50px;
+    margin: 30px 0px 0px 60px;
+}
+.word3{
+    font-size: 50px;
+    margin: 30px 0px 0px 300px;
+    text-align: end;
+}
+.img2
+{
+    margin: 45px 0px 0px 5px;
+    height: 42px;
+    width: 40px;
+}
+.hw
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 6vw;
+}
+.first
+{
+    margin-right: 40%;
+}
+.second
+{
+    color: white;
+    font-size: 3.2vh;
+    margin-top: 2.5vh;
+    display: grid;
+    grid-template-rows: 5vh 5vh 5vh;
+    grid-template-columns: 16vw 16vw;
+    grid-template-areas: 
+    "a11 a12"
+    "a21 a22"
+    "a31 a32"
+    /* "a41 a42" */
+    ;
+}
+.a11
+{
+    grid-area: a11;
+}
+.a12
+{
+    grid-area: a12;
+    text-align: end;
+}
+.a21
+{
+    grid-area: a21;
+}
+.a22
+{
+    grid-area: a22;
+    text-align: end;
+}
+.a31
+{
+    grid-area: a31;
+}
+.a32
+{
+    grid-area: a32;
+    text-align: end;
+}
+.a42
+{
+    grid-area: a41;
+    margin-left: 20vw;
+    text-align: end;
+    text-decoration: underline;
+    color: white;
+    font-size: 3vh;
+}
+.title
+{
+    font-size:5vh;
+    color: white;
+
+}
+.img3
+{
+    height: 6vh;
+    width: 18%;
+}
+.flex-container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+}
+.letter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height: 22vw;
+    background-color:#091868;
+    font-size: 16.5vw;
+    color: white;
+    border-radius: 3rem;
+    margin-bottom: 7vh;
+}
+.email
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23vw;
+    height: 6vw;
+    background-color:#091868;
+    font-size: 2vw;
+    color: white;
+    border-radius: 3rem;
+}
+.flex-container2
+{
+    width: 2vw;
+    height: 20vh;
+    background-color:#091868;
+    margin-left: auto;
+}
+.logo
+{
+    margin-right: 1vw;
+    height: 3.5vh;
+}
+.arrow
+{
+    width: 1vw;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    margin-left: 0.5vw;
+}
